@@ -12,9 +12,9 @@
 # 8) Format the disk using mkfs.ext4 format. Type mkfs.ext4 /dev/xvdf
 ![image](https://github.com/aishwaryjoshi26/DevopsProjects/assets/99661517/43ae79cc-fba2-4f05-b6e5-190b3fab4df5)
 # 9) For temporary mounting type mount /dev/xvdf /var/www/html/images
-# 10) For permanent mounting edit /etc/fstab file and type /dev/xvdf /var/www/html/images default 0 0
+# 10) For permanent mounting edit /etc/fstab file and type /dev/xvdf /var/www/html/images ext4 default 0 0
 # 11) Try to access the website with public IP and see if it works.
-
+# 12) If for some reasons it doesn't work then edit /etc/selinux file and update SELINUX=disabled
 
 
 
