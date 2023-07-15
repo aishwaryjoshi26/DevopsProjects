@@ -24,4 +24,9 @@ c) ELB
 - Allow traffic on port 80 and 443 for http and https respectively.
 ![image](https://github.com/aishwaryjoshi26/DevopsProjects/assets/99661517/4a8bf05b-0872-4e7c-805b-5b4af4b48978)
 
-
+# Step-5 Create EC2 instances with below configuration and select the security group which were created above.
+Default userdata path: https://github.com/imnowdevops/vprofile-project.git, Branch: aws lift and shift (This will configure the infra for application)
+a) App
+- Os: Centos stream 9, Instance type: t2-micro, Userdata: tomcat_ubuntu.sh
+b) DB(Mysql), MQ(Rabbit), Cache(Memcache)
+- Os: Centos stream 9, Instance type: t2-micro, Userdata: mysql.sh, rabbitmq.sh and memcache.sh
