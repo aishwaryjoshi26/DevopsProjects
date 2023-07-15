@@ -10,5 +10,8 @@
 ![image](https://github.com/aishwaryjoshi26/DevopsProjects/assets/99661517/678a9c89-739a-4911-aeb6-4e4adb329bfa)
 ![image](https://github.com/aishwaryjoshi26/DevopsProjects/assets/99661517/b6812d0b-3d39-4ece-8623-c7bffc75782d)
 # Step-3 Copy the CName and CName value and add a DNS entry under your domain in your domain providers account.
-![image](https://github.com/aishwaryjoshi26/DevopsProjects/assets/99661517/a6f057af-21e1-4433-8fe7-dd14fabcc51a)
+![image](https://github.com/aishwaryjoshi26/DevopsProjects/assets/99661517/0a23a77b-e0a6-49ee-874f-b73d10617321)
+# Step-4 Create security groups for Application service, Backend service(MQ,DB and cache) and ELB. For this project outbound rule can be to allow all traffic. Below screenshots are for inbound rule.
+a) App
+
 
